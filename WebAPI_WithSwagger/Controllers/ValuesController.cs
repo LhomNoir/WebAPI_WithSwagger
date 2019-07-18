@@ -7,6 +7,10 @@ using System.Web.Http;
 
 namespace WebAPI_WithSwagger.Controllers
 {
+    /// <summary>
+    /// -- https://stackoverflow.com/questions/51117655/how-to-use-swagger-in-asp-net-webapi-2-0-with-token-based-authentication
+    /// </summary>
+
     [Authorize]
     public class ValuesController : ApiController
     {
